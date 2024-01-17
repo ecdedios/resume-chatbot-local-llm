@@ -26,7 +26,11 @@ Written in Python 3.9.9. Some technologies used:
 - Lanchain
 - Streamlit
 
-To see the project in action, execute `streamlit run app.py`.
+To see the project in action, install the required libraries with
+
+`pip install langchain langchain-community chromadb fastembed streamlit streamlit_chat `
+
+and execute `streamlit run app.py`.
 
 ## Meta
 
