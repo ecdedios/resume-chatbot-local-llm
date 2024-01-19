@@ -1,6 +1,6 @@
 # Resume Database Chatbot Using Local LLM
 
-> Playing with Ollama, Langchain, and Streamlit
+> Playing with RAG using Ollama, Langchain, and Streamlit.
 
 ## Project Description
 
