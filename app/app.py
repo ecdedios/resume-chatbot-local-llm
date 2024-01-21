@@ -87,8 +87,8 @@ def read_and_save_file():
 
         # Display a spinner while ingesting the file.
         with st.session_state["ingestion_spinner"], st.spinner(f"Ingesting {file.name}"):
-            # Ingest the file using the assistant.
-            st.session_state["assistant"].in
+            st.session_state["assistant"].ingest(file_path)
+        os.remove(file_path)
 
 
 def page():
